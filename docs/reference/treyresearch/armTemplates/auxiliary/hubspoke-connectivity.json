@@ -346,7 +346,7 @@
                                             "location": "[parameters('location')]",
                                             "name": "[variables('azVpnGwIpName')]",
                                             "sku": {
-                                                "name": "[if(equals(parameters('gwRegionalOrAz'), 'Zone'), 'Standard', 'Basic')]"
+                                                "name": "[if(equals(parameters('gwRegionalOrAz'), 'Zone'), 'Standard', 'Standard')]"
                                             }, 
                                             "properties": {
                                                 "publicIPAllocationMethod": "[if(equals(parameters('gwRegionalOrAz'), 'Zone'), 'Static', 'Dynamic')]"
@@ -359,7 +359,7 @@
                                             "location": "[parameters('location')]",
                                             "name": "[variables('azVpnGwAAIpName')]",
                                             "sku": {
-                                                "name": "[if(equals(parameters('gwRegionalOrAz'), 'Zone'), 'Standard', 'Basic')]"
+                                                "name": "[if(equals(parameters('gwRegionalOrAz'), 'Zone'), 'Standard', 'Standard')]"
                                             }, 
                                             "properties": {
                                                 "publicIPAllocationMethod": "[if(equals(parameters('gwRegionalOrAz'), 'Zone'), 'Static', 'Dynamic')]"
