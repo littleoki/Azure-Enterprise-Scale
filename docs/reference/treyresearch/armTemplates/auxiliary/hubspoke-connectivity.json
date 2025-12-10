@@ -349,7 +349,7 @@
                                                 "name": "[if(equals(parameters('gwRegionalOrAz'), 'Zone'), 'Standard', 'Standard')]"
                                             }, 
                                             "properties": {
-                                                "publicIPAllocationMethod": "[if(equals(parameters('gwRegionalOrAz'), 'Zone'), 'Static', 'Dynamic')]"
+                                                "publicIPAllocationMethod": "[if(equals(parameters('gwRegionalOrAz'), 'Zone'), 'Static', 'Static')]"
                                             }
                                         },
                                         {
@@ -362,7 +362,7 @@
                                                 "name": "[if(equals(parameters('gwRegionalOrAz'), 'Zone'), 'Standard', 'Standard')]"
                                             }, 
                                             "properties": {
-                                                "publicIPAllocationMethod": "[if(equals(parameters('gwRegionalOrAz'), 'Zone'), 'Static', 'Dynamic')]"
+                                                "publicIPAllocationMethod": "[if(equals(parameters('gwRegionalOrAz'), 'Zone'), 'Static', 'Static')]"
                                             }
                                         },
                                         {
@@ -384,7 +384,7 @@
                                                     {
                                                         "name": "default",
                                                         "properties": {
-                                                            "privateIPAllocationMethod": "Dynamic",
+                                                            "privateIPAllocationMethod": "Static",
                                                             "subnet": {
                                                                 "id": "[variables('azVpnGwSubnetId')]"
                                                             },
@@ -487,10 +487,10 @@
                                             "location": "[parameters('location')]",
                                             "name": "[variables('azErGwIpName')]",
                                             "sku": {
-                                                "name": "[if(equals(parameters('erRegionalOrAz'), 'Zone'), 'Standard', 'Basic')]"
+                                                "name": "[if(equals(parameters('erRegionalOrAz'), 'Zone'), 'Standard', 'Standard')]"
                                             },
                                             "properties": {
-                                                "publicIPAllocationMethod": "[if(equals(parameters('erRegionalOrAz'), 'Zone'), 'Static', 'Dynamic')]"
+                                                "publicIPAllocationMethod": "[if(equals(parameters('erRegionalOrAz'), 'Zone'), 'Static', 'Static')]"
                                             }
                                         },
                                         {
