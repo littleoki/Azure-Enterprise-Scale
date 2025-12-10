@@ -384,7 +384,7 @@
                                                     {
                                                         "name": "default",
                                                         "properties": {
-                                                            "privateIPAllocationMethod": "Static",
+                                                            "privateIPAllocationMethod": "Dynamic",
                                                             "subnet": {
                                                                 "id": "[variables('azVpnGwSubnetId')]"
                                                             },
