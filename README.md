@@ -1,12 +1,8 @@
 # Azure Landing Zones (Enterprise-Scale) - Reference Implementation
 
-[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/azure/enterprise-scale.svg)](http://isitmaintained.com/project/azure/enterprise-scale "Average time to resolve an issue")
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/azure/enterprise-scale.svg)](http://isitmaintained.com/project/azure/enterprise-scale "Percentage of issues still open")
-[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/Azure/Enterprise-Scale/badge)](https://scorecard.dev/viewer/?uri=github.com/Azure/Enterprise-Scale)
-
 ## User documentation
 
-To find out more about the Azure landing zones reference implementation, please refer to the [documentation on our Wiki](https://github.com/Azure/Enterprise-Scale/wiki)
+To find out more about the Azure landing zones reference implementation, please refer to the [documentation on our Wiki](https://github.com/littleoki/Azure-Enterprise-Scale/wiki)
 
 ---
 
@@ -62,16 +58,3 @@ You can find all of the implementation options for Azure Landing Zones here: [ak
 
 The Azure Landing Zones (Enterprise-Scale) architecture is continuously updated to align with advancements in the Azure platform and insights from customer feedback. For detailed information on future updates, please refer to the roadmap at: [Azure Landing Zones Roadmap](https://aka.ms/alz/roadmap)
 
-## Contributing
-
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit [Contributor License Agreement (CLA)](https://cla.opensource.microsoft.com).
-
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
